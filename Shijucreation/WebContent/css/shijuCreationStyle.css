@@ -1,0 +1,88 @@
+/**
+ * 	General styles
+ */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+/*
+ *  shijucreation specific styles
+ */
+#wrapper {
+	height: 100%;
+	width: 100%;	
+}
+#main-container {
+	width: 980px;
+	margin: 0 auto;
+	background: #000000;
+}
+header {
+	height: 160px;
+	background: #000000;
+	border-bottom: 5px solid #FDC5BE;  
+}
+footer {
+	height: 30px;
+	background: #000000;
+	border-top: 5px solid #FDC5BE;
+	color: #FDC5BE;
+}
+#logoImage {
+	margin: 10px;
+	/*background-image: url("../img/shijucreation-official_logo.JPG");*/
+	/*height: 140px;*/
+	/*width: 140px;*/
+	display: inline-block;
+}
+#bannerWriting {
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 48px;
+	font-variant: small-caps;
+	text-shadow: 2px 2px #860A2C; 
+	color: #FDC5BE;
+	/*display: inline-block;*/
+	position: absolute;
+	top: 0px;
+	margin: 50px 200px;
+}
+#footerLinks {
+	text-align: center;
+	padding: 7px;
+}
+#footerLinks a{
+	color: #FDC5BE;
+}
+.mid-content-about-us {
+	color: #FDC5BE;
+	font-family: Verdana, sans-serif;
+	font-size: 13px;
+}
+.mid-content-about-us p {
+	margin: 20px 25px 20px 10px;
+	padding: 3px;
+	text-indent: 30px;
+}
+.mid-content-about-us ul {
+	margin: 10px 0 20px 75px;
+}
+.mid-content-about-us li {
+	padding: 5px; 
+}
+.pageHeading {
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 16px;
+}
+.contentHeading {
+	font-weight: bold;
+	font-size: 14px;
+}
+.contentSubHeading {
+	font-weight: bold;
+}
+.contentParagraph {
+	margin: 20px 25px 20px 40px !important;
+}
